@@ -4,7 +4,7 @@ class ApplicationController < ActionController::API
   private
 
   def authorize_request
-    api_key = request.headers['Authorization']&.split(' ').last
+    api_key = request.headers['Authorization']&.split(' ')&.last
     return render_unauthorized unless api_key == ENV.fetch('API_KEY')
   end
 
