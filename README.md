@@ -2,6 +2,14 @@
 
 A minimal full-stack task tracking application built with Ruby on Rails (API) and React.
 
+## Live Demo
+
+🚀 **[View Live Application](https://simple-task-tracker-2ljw.onrender.com)**
+
+### Video Demonstration
+
+https://github.com/user-attachments/assets/8478f6ca-4e07-45ee-9e42-83505005ea8a
+
 ## Architecture
 
 **Monorepo structure** - Both frontend and backend are in the same repository for easier development and deployment coordination.
