@@ -122,6 +122,32 @@ Returns all tasks ordered by creation time (newest first).
 ]
 ```
 
+## Testing
+
+This project includes comprehensive unit tests for both the frontend and backend.
+
+### Frontend Tests
+
+The React application uses **Jest** and **React Testing Library** for unit and integration tests.
+
+**Run all tests:**
+
+```bash
+cd client
+npm test
+```
+
+### Backend Tests
+
+The Rails API uses **RSpec** for testing.
+
+**Run all specs:**
+
+```bash
+cd api
+bundle exec rspec
+```
+
 ## Features
 
 - Create tasks with descriptions

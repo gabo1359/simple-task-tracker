@@ -41,6 +41,9 @@ group :development, :test do
   
   # Load environment variables from .env file
   gem "dotenv-rails"
+  
+  # RSpec for testing
+  gem "rspec-rails", "~> 7.1"
 end
 
 
